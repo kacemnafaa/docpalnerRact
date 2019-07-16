@@ -1,0 +1,230 @@
+
+
+.navbar{
+  position:  fixed !important;
+  width: 100%;
+  z-index: 1;
+  background: hsla(0,0%,100%,.98);
+  margin: -10px
+  
+}
+.navbar-background{
+  padding:5px 20px;
+}
+.navbar-brand{
+  font-size: 30px;
+  margin-left:50px
+}
+.navbar-brand:hover{
+color:#00ccb1;
+
+}
+.nav-link:hover{
+  color:#00ccb1;
+  text-decoration: none;
+ 
+  font-size: 25px;
+
+}
+.nav-link{
+  color:#ababab;
+  font-size:18px;
+}
+
+.toggler-btn{
+  border:2px solid #00ccb1;
+  padding:5px;
+}
+  .bar{
+    width: 30px;
+    height: 3px;
+    margin:5px;
+    background: #00ccb1;
+   
+
+}
+.change .bar1{
+  transform: rotate(-45deg) translate(-5px,5px);
+}
+.change .bar2{
+  transform: rotate(-45deg) translate(-5px,5px);
+  opacity: 0;
+}
+.change .bar3{
+  transform: rotate(45deg) translate(-5px,-8px);
+}
+    
+
+
+
+.col{
+margin-top: 28px;}
+.img{
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+.active{
+  color:#00ccb1;
+}
+.font-weight-bold{
+  color:#00ccb1;
+  font-size: 1.7rem
+}
+.font-weight-bolder{
+  color:#ababab;
+  font-size: 1.7rem
+}
+.navbar-collapse{
+  position: relative;
+  margin-left:600px
+}
+.display-6{
+  font-size: 2.125rem;
+  color: #00b39b;
+  text-align: center; 
+}
+
+.service-card{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.option-bar{
+  width:100px
+}
+
+.htext{ 
+  font-size: 2.125rem;
+  text-align: center;
+  color: #00b39b;
+}
+.par1{ 
+  
+  display: flex;
+  flex-wrap: wrap;
+ 
+  line-height: 1.75;
+  font-weight: 400;
+  margin: 13px 91px;
+}
+
+
+.txtspace{
+  width: 550px;
+
+}
+.towCard{
+ box-sizing: inherit;
+  display: flex;
+ flex-wrap: wrap;
+ position: relative;
+ left:180px;
+ 
+
+
+}
+.imgcard{
+display: flex;
+justify-content: space-around;
+  padding: 40px;
+}
+.imgcard2{
+  display: flex;
+    justify-content: space-between;
+   
+  }
+  .ul-nav{
+    display: flex;
+    justify-content:space-between;
+  }
+.im-nav {
+    display: flex;
+   
+
+    justify-content: space-around;
+  
+   
+  }
+  .im-nav1{
+    padding: 15px;
+  }
+  .organisation {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;}
+    .horizentale{
+      display:flex;
+      justify-content: space-between;
+      padding:2px;
+      font-size: 1.5rem;
+      color: #747474;
+    }
+    .card{
+      display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left:15px;
+    }
+    .org{
+      flex-wrap:wrap;
+    justify-content: space-between
+    }
+    .baground{
+      background-image: url('./bg.png');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%
+    }
+    .smallll-card {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    
+    }
+   
+    
+    .org1 {
+      display: flex;
+      flex-flow: wrap !important;
+      margin: -22px -11px;
+
+    }
+   
+.small-card{
+  background-color: white;
+  display: flex;
+ flex-wrap:column wrap;
+  position: relative;
+  width: 150px;
+  margin:-11px ;
+}
+.txt-foot{
+  text-align: center;
+  color: grey;
+}
+
+@media only screen and (max-width : 991px) {
+  .smallll-card{
+  height: 80%;
+    width: 30%;
+   
+    /* display: flex;
+   flex-wrap: wrap; */
+  }
+  }
+.title-item{
+  display: flex;
+  flex-flow: column wrap;
+ /* position: relative; */
+ /* padding: 80px */
+}
+    .img1{
+      width: 250px;
+      height: 33px;
+    }
+    
